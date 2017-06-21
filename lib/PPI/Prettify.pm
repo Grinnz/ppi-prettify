@@ -6,7 +6,7 @@ use Carp 'croak';
 use HTML::Entities;
 use Perl::Critic::Utils qw/is_method_call is_subroutine_name is_package_declaration/;
 use B::Keywords;
-use List::MoreUtils 'any';
+use List::Util 1.33 'any';
 
 # ABSTRACT: A Perl HTML pretty printer to use with Google prettify CSS skins, no JavaScript required!
 
