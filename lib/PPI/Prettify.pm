@@ -4,7 +4,7 @@ use warnings;
 use PPI::Document;
 use Carp 'croak';
 use HTML::Entities;
-use Perl::Critic::Utils qw/is_method_call is_subroutine_name is_package_declaration/;
+use PPIx::Utils qw/is_method_call is_subroutine_name is_package_declaration/;
 use B::Keywords;
 use List::MoreUtils 'any';
 
